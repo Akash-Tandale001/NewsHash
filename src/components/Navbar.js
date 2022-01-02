@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            NewsBlue
+            NewsHash
           </Link>
           <button
             className="navbar-toggler"
