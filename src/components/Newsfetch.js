@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Newscard from "./Newscard";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Spinner from "./Spinner";
-// import PropTypes from 'prop-type'
 
 const Newsfetch = (props) => {
   const [articles, setArticles] = useState([]);
@@ -63,15 +62,6 @@ const Newsfetch = (props) => {
     </div>
   );
 };
-
-// Newsfetch.defaultProps ={
-//     country:"in",
-//     pageSize:8,
-// }
-// Newsfetch.prototype ={
-//     country: PropTypes.string,
-//     pageSize: PropTypes.number,
-// }
 
 
 
