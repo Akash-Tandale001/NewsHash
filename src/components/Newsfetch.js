@@ -53,7 +53,7 @@ const Newsfetch = (props) => {
             {articles.map((info) => {
               return (
                 <div className="col-md-3" key={info.url}>
-                  <Newscard title={info.title ? info.title : ""} description={info.description ? info.description : ""} imageurl={info.imageurl} newsurl={info.newsurl} author={info.author} date={info.data} source={info.source} />
+                  <Newscard title={info.title ? info.title : ""} description={info.description ? info.description : ""} imageurl={info.urlToImage} newsurl={info.url} author={info.author} date={info.publishedAt}/>
                 </div>
               );
             })}
