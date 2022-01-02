@@ -7,8 +7,7 @@ const Spinner = () => {
       <img
         src={spinner}
         alt="spinner"
-        className="text-center"
-        style={{ top: "50%", left: "50%" }}
+        style={{ width:"75px", height:"75px",marginTop:"300px",marginLeft:"50%"}}
       />
     </div>
   );
