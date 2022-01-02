@@ -10,7 +10,8 @@ import technologyimage from "../images/technology.jpg";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "100px" }}>
+      <h1 className="text-center">Welcome to News-Hash</h1>
       <div className="row">
         <div className="col-md-3">
           <HomeCard title="General" image={generalimage} />
@@ -19,10 +20,10 @@ const Home = () => {
           <HomeCard title="Business" image={businessimage} />
         </div>
         <div className="col-md-3">
-          <HomeCard title="Entertaiment" image={entertaimentimage} />
+          <HomeCard title="Entertainment" image={entertaimentimage} />
         </div>
         <div className="col-md-3">
-          <HomeCard title="Sport" image={sportimage} />
+          <HomeCard title="Sports" image={sportimage} />
         </div>
         <div className="col-md-3">
           <HomeCard title="Health" image={healthimage} />
