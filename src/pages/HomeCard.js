@@ -12,10 +12,10 @@ const HomeCard = (props) => {
   return (
       <Link to={linkto}>
     <div className="my-4 "> 
-      <div class="card shadow p-3 mb-4  bg-body rounded" style={{width: "20rem" , height: "18rem"}}>
+      <div className="card shadow p-3 mb-4  bg-body rounded" style={{width: "20rem" , height: "18rem"}}>
         <img src={image} class="card-img-top" alt="..."style={{height:"185px"}} />
-        <div class="card-body">
-          <p class="card-text text-center " style={{color:"black",fontWeight:"bolder",textDecorationStyle:"none"}}>{title}</p>
+        <div className="card-body">
+          <p className="card-text text-center " style={{color:"black",fontWeight:"bolder",textDecorationStyle:"none"}}>{title}</p>
         </div>
       </div>
     </div>
