@@ -12,13 +12,13 @@ function App()  {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />        
-        <Route path="/general" element={<Newsfetch apiKey={apiKey} key="general" pageSize='6' country="in" category="general" />} />
-        <Route path="/business" element={<Newsfetch apiKey={apiKey} key="business" pageSize='6' country="in" category="business"/>} />
-        <Route path="/entertainment" element={<Newsfetch apiKey={apiKey} key="entertainment" pageSize='6' country="in" category="entertainment"/>} />
-        <Route path="/technology" element={<Newsfetch apiKey={apiKey} key="technology" pageSize='6' country="in" category="technology"/>} />
-        <Route path="/sports" element={<Newsfetch apiKey={apiKey} key="sports" pageSize='6' country="in" category="sports"/>} />
-        <Route path="/science" element={<Newsfetch apiKey={apiKey} key="science" pageSize='6' country="in" category="science"/>} />
-        <Route path="/health" element={<Newsfetch apiKey={apiKey} key="health" pageSize='6' country="in" category="health"/>} />        
+        <Route path="/general" element={<Newsfetch apiKey={apiKey} key="general" pageSize='8' country="in" category="general" />} />
+        <Route path="/business" element={<Newsfetch apiKey={apiKey} key="business" pageSize='8' country="in" category="business"/>} />
+        <Route path="/entertainment" element={<Newsfetch apiKey={apiKey} key="entertainment" pageSize='8' country="in" category="entertainment"/>} />
+        <Route path="/technology" element={<Newsfetch apiKey={apiKey} key="technology" pageSize='8' country="in" category="technology"/>} />
+        <Route path="/sports" element={<Newsfetch apiKey={apiKey} key="sports" pageSize='8' country="in" category="sports"/>} />
+        <Route path="/science" element={<Newsfetch apiKey={apiKey} key="science" pageSize='8' country="in" category="science"/>} />
+        <Route path="/health" element={<Newsfetch apiKey={apiKey} key="health" pageSize='8' country="in" category="health"/>} />        
       </Routes>
     </Router>
   );
