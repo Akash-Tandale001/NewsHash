@@ -1,0 +1,16 @@
+.head{
+     font-weight: bolder;
+     font-size: 24px;
+     color: black;
+}
+
+.child{
+    font-weight: bold;
+    font-size: 20px;
+        color: black; 
+}
+
+.upmove:hover{
+    transform:translateY(5.5) ;
+    /* transition: 1s ease-in; */
+}

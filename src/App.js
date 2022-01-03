@@ -3,6 +3,8 @@ import {BrowserRouter as Router , Route , Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Newsfetch from './components/Newsfetch';
 import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Login from './pages/Login';
 
 
 function App()  {
@@ -19,6 +21,8 @@ function App()  {
         <Route path="/sports" element={<Newsfetch apiKey={apiKey} key="sports" pageSize='8' country="in" category="sports"/>} />
         <Route path="/science" element={<Newsfetch apiKey={apiKey} key="science" pageSize='8' country="in" category="science"/>} />
         <Route path="/health" element={<Newsfetch apiKey={apiKey} key="health" pageSize='8' country="in" category="health"/>} />        
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

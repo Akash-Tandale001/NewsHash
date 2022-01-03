@@ -7,6 +7,7 @@ import sportimage from "../images/sport.jpg";
 import healthimage from "../images/health.jpg";
 import scienceimage from "../images/science.jpg";
 import technologyimage from "../images/technology.jpg";
+import aboutimage from "../images/about.jpg";
 
 const Home = () => {
   return (
@@ -26,14 +27,17 @@ const Home = () => {
         <div className="col-md-3">
           <HomeCard title="Sports" image={sportimage} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-3">
           <HomeCard title="Health" image={healthimage} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-3">
           <HomeCard title="Science" image={scienceimage} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-3">
           <HomeCard title="Technology" image={technologyimage} />
+        </div>
+        <div className="col-md-3">
+          <HomeCard title="About Us" image={aboutimage} />
         </div>
       </div>
     </div>

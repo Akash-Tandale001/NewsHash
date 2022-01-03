@@ -1,12 +1,13 @@
 import React from "react";
+import './body.css';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div >
+      <nav className="navbar fixed-top shadow rounded navbar-expand-lg navbar-lighthover-overlay hover-zoom hover-shadow ripple bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand head" to="/">
             NewsHash
           </Link>
           <button
@@ -23,46 +24,49 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active child" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/general">
+                <Link className="nav-link child" to="/general">
                 General
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/business">
+                <Link className="nav-link child" to="/business">
                   Business
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/entertainment">
+                <Link className="nav-link child" to="/entertainment">
                   Entertainment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/health">
+                <Link className="nav-link child" to="/health">
                   Health
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/science">
+                <Link className="nav-link child" to="/science">
                   Science
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/sport">
+                <Link className="nav-link child" to="/sport">
                   Sport
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/technology">
+                <Link className="nav-link child" to="/technology">
                   Technology
                 </Link>
               </li>          
             </ul>
+            <Link to="/profile"><img src="https://img.icons8.com/fluency/48/000000/test-account.png" alt="."/></Link>
+            <Link to="/login"><button class="btn btn-outline-success child" type="button">Sign In</button></Link>
+            <Link to="/login"><button class="btn btn-outline-success child" type="button">Log In</button></Link>
           </div>
         </div>
       </nav>
