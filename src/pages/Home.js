@@ -12,7 +12,7 @@ import aboutimage from "../images/about.jpg";
 const Home = () => {
   return (
     <div className="container" style={{ marginTop: "100px" }}>      
-    <h1 className="text-center">Welcome to News-Hash</h1>
+    <h1 className="text-center ">Welcome to News-Hash</h1>
     
       <div className="row">
         <div className="col-md-3">

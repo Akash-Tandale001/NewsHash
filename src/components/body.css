@@ -1,12 +1,12 @@
 .head{
      font-weight: bolder;
-     font-size: 24px;
+     font-size: 22px;
      color: black;
 }
 
 .child{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: black; 
 }
 
@@ -18,4 +18,21 @@
 .upmove:hover{
     transform:translateY(5.5) ;
     /* transition: 1s ease-in; */
+}
+
+.signbutton{
+    text-decoration: none;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.signbutton:hover{
+	background: #6d44b8;
 }
