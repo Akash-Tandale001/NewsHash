@@ -65,7 +65,7 @@ const Navbar = () => {
               </li>          
             </ul>
             <Link to="/profile"><img src="https://img.icons8.com/fluency/48/000000/test-account.png" alt="."/></Link>
-            <Link to="/login"><button class="btn btn-outline-success " type="button">Sign In</button></Link>
+            <Link to="/login"><button class="signbutton " type="button">Sign In</button></Link>
           </div>
         </div>
       </nav>
