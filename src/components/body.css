@@ -7,7 +7,12 @@
 .child{
     font-weight: bold;
     font-size: 20px;
-        color: black; 
+    color: black; 
+}
+
+.child :hover{
+    border-left-color: black;
+    border-left-width: 5px;
 }
 
 .upmove:hover{
