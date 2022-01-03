@@ -11,3 +11,4 @@ NewsHash is simple,fast,userfriendly website to fetch updated news from verious 
 ### BackEnd Part :
 - Node js
 - Express
+- Firebase Authentication
