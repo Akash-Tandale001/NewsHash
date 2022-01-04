@@ -21,11 +21,11 @@ NewsHash is simple,fast,userfriendly website to fetch updated news from verious 
 
 ## How To Use
 
-To clone and run this Website, you'll need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/download/) installed on your computer.For API key create an accout on [Newsapi](https://newsapi.org/) and follow this command on favourite terminal :
+To clone and run this Website, you'll need [Git](https://git-scm.com) and [Node](https://nodejs.org/en/download/) installed on your computer.For API key create free account on [Newsapi](https://newsapi.org/) and follow this command on favourite terminal :
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/sabinbajracharya/Newshash.git
+$ git clone https://github.com/Akash-Tandale001/Newshash.git
 # Go into the repository
 $ cd Newshash
 # Install dependencies
