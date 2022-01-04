@@ -3,12 +3,9 @@ NewsHash is simple,fast,userfriendly website to fetch updated news from verious 
 
 ## Demo Website :
 
-<p >
-  <img src="./src/screenshot/Screenshot1.png" />
-  <img src="./src/screenshot/Screenshot2.png" /> 
-  <img src="./src/screenshot/Screenshot3.png" />
-  <img src="./src/screenshot/Screenshot4.png" />
-</p>
+![Screenshot 1](https://user-images.githubusercontent.com/77606698/148015850-b977109b-542b-4d51-bd2f-48751adca659.png)
+![Screenshot 2](https://user-images.githubusercontent.com/77606698/148015874-5e49416a-9ff6-474e-b9b0-aa03b30794a8.png)
+![Screenshot 3](https://user-images.githubusercontent.com/77606698/148015873-114d3d9a-75eb-45ba-8a16-8ce89fbeaeec.png)
 
  
 ## Tools used 
