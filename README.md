@@ -1,6 +1,15 @@
 # NewsHash
 NewsHash is simple,fast,userfriendly website to fetch updated news from verious domain such as Entertainment,Spots,Technology etc...
 
+## Demo Website :
+
+<p >
+  <img src="./src/screenshot/Screenshot1.png" />
+  <img src="./src/screenshot/Screenshot2.png" /> 
+  <img src="./src/screenshot/Screenshot3.png" />
+  <img src="./src/screenshot/Screenshot4.png" />
+</p>
+
  
 ## Tools used 
 ### FrontEnd part :
